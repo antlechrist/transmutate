@@ -1,0 +1,26 @@
+transmutate
+===========
+
+Convert wav, ogg, mp3, or flac files
+   into wav, ogg, mp3, or flac files.
+
+Based on [audio-convert](http://savannah.nongnu.org/projects/audio-convert).
+
+Copyright (c) 2005 linfasoft  
+Copyright (c) 2010 Andrew Antle <andrew@antlechrist.org>
+
+GPLv2
+
+Dependencies
+------------
+* awk
+* file
+* flac
+* id3tag
+* lame
+* sh
+* vorbis-tools
+* zenity
+
+### 2010-07-19
+sh: 438 (100.00%) generated using David A. Wheeler's 'SLOCCount'.

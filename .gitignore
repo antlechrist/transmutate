@@ -1,0 +1,6 @@
+releases/*
+test/*
+transmutate.sh
+*.flac
+*.mp3
+*.ogg

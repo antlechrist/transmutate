@@ -1,0 +1,17 @@
+TODO
+====
+
+* Keep using lame presets or switch to `-V -n`?
+* Switch all tagging programs (id3tag, oggenc, metaflac) to mutagen
+  (for id3v2.4 support and sanity's sake)
+
+	$ mutagen-inspect 55\ Necrophagist\ -\ Epitaph\ -\ Stabwound.mp3 | grep TDRC | cut -d \= -f 2
+	2010
+
+* It seems there's a LOT of repetition in the functions... Can we
+  generalize some of them?
+
+Done :: 2010-07-19
+------------------
+* Added album_date field to tags
+* Fixed wording of some variable questions
